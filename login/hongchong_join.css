@@ -1,0 +1,53 @@
+body{
+	margin-left: 150px;
+}
+table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.inputsize{
+	width: 450px;
+	height: 31px;
+	padding-top:5px;
+	padding-left: 5px;
+	background-color: #FFFFFF;
+	border-color: #D8D8D8;
+	border-top-style: outset;
+	border-left-style: outset;
+	border-width: 0.1px;
+
+}
+
+input::placeholder{
+	font-size: 20px;
+	color: #BDBDBD;
+}
+
+.word{
+	color:#BDBDBD;
+	font-size:18px;
+}
+
+.condition{
+	color : #848484;
+	font-size : 14px;
+	padding-top: 4px;
+	text-align: left;
+}
+
+.check{
+	text-decoration: none;
+	color : #848484;
+	font-size : 18px;
+
+}
+.check:hover, .check:active{
+	font-weight: bold;
+	color:black;
+}
+.already{
+	text-align: center;
+	color : #A4A4A4;
+	font-size: 14px;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<meta charset ="UTF-8">
+<title> 게시판 </title>
+<link rel ="stylesheet" href="styles.css">
+
+</head>
+
+<body >
+<body topmargin=0 leftmargin=0 text=#464646>
+<center>
+<BR>
+<!-- 입력된 값을 다음 페이지로 넘기기 위해 FORM을 만든다. -->
+<form action=db.php method=post>
+<table width=580 border=0 cellpadding=2 cellspacing=1 bgcolor=#777777>
+    <tr>
+        <td height=20 align=center bgcolor=#999999>
+        <font color=white><B>글 쓰 기</B></font>
+        </td>
+    </tr>
+    <!-- 입력 부분 -->
+
+    <tr>
+        <td bgcolor=white>&nbsp;
+        <table>
+            <tr>
+                <td width=60 align=left >제품명</td>
+                <td align=left >
+                    <INPUT type=text name=name size=20 maxlength=10>
+
+                </td>
+                    <!-- <img src = "images/bottle2.jpg" height="100" width="100"> -->
+            </tr>
+            <tr>
+                <td width=60 align=left >종류</td>
+                <td align=left >
+
+                  <select name="index">
+                    <option value="">종류선택</option>
+                    <option value="Decoration">Decoration</option>
+                    <option value="Practical">Practical</option>
+                    <option value="figure">figure</option>
+                    <option value="Toy">Toy</option>
+                  </select>
+                </td>
+            </tr>
+            <tr>
+                <td width=60 align=left >가격</td>
+                <td align=left >
+                    <INPUT type=text name=price size=8 maxlength=8>
+                </td>
+            </tr>
+
+            <tr>
+                <td width=60 align=left >이미지 경로</td>
+                <td align=left >
+                    <INPUT type=text name=title size=40 maxlength=35>
+                    <INPUT type= "button" value = "check" onclick="getPath();">
+                      <script language="javascript" type="text/javascript">
+                      function getPath(){
+                        var inputName = document.getElementById('file1');
+                        var imgPath;
+
+                        imgPath = inputName.value;
+                        alert(imgPath);
+                      }
+                      </script>
+
+                </td>
+            </tr>
+            <tr>
+                <td width=60 align=left >URL</td>
+                <td align=left >
+                <INPUT type=text name=URL size=40 maxlength=35>
+                <INPUT type= "button" value = "check" onclick="getPath();">
+                 <!-- <img src ="/Termprojec/TermProject/category/imgs/category.jpg" height="100" width="100">  -->
+
+
+                </td>
+              </tr>
+
+            <!-- <tr>
+                <td width=60 align=left >내용</td>
+                <td align=left >
+                    <TEXTAREA name=content cols=65 rows=15></TEXTAREA>
+                </td>
+            </tr> -->
+            <!-- <form action="/action_page.php">
+                  Select files: <input type="file" name="myFile" multiple><br><br>
+            </form> -->
+
+            <tr>
+                <td colspan=10 align=center>
+                    <INPUT type=submit value="글 저장하기">
+                    &nbsp;&nbsp;
+                    <!-- <INPUT type=reset value="다시 쓰기">
+                    &nbsp;&nbsp;
+                    <INPUT type=button value="되돌아가기"
+                    onclick="history.back(-1)"-->
+                </td>
+            </tr>
+        </TABLE>
+</td>
+</tr>
+<!-- 입력 부분 끝 -->
+</table>
+</form>
+</center>
+</body>
+</html>
+</html>

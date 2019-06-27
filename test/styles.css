@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  /*overflow: hidden;*/
+  /*overflow:auto;*/
+}
+li{
+  list-style: none;
+}
+ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+/*첫 시작*/
+.blackBackground{
+  width: 100%;
+  height: 869px;
+
+  background-color: black;
+  z-index: 2;
+}
+
+.razor{
+  background-color: black;
+  margin: 0;
+
+  position: relative;
+  top : 600px;
+}
+/*페이지 관리*/
+/*.page{
+  float: left;
+  height: 869px;
+}*/

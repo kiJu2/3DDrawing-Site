@@ -1,0 +1,40 @@
+@import url("/TermProject/union/unionCss.css?ver=2");
+.box{
+	padding-left: 150px;
+}
+#logo{
+	text-align: center;
+}
+#menu{
+	text-align: center;
+	font-family: 'Black Han Sans', sans-serif;
+}
+/*a{
+	text-decoration: none;
+	outline: none;
+	color:#b2b2b2;
+	font-family: 'Black Han Sans', sans-serif;
+}*/
+#title{
+	margin-left: 80px;
+}
+
+#content{
+	margin-left: 80px;
+	color:#b2b2b2;
+	font-size: large;
+	line-height: 1.5em;
+}
+
+#name{
+	font-size: 45px;
+
+}
+
+#intro{
+	font-size: 30px;
+	text-decoration: none;
+	outline: none;
+	color:#b2b2b2;
+
+}

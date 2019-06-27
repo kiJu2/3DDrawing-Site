@@ -1,0 +1,248 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  overflow: hidden;
+}
+li{
+  list-style: none;
+}
+ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+a{
+  text-decoration: none;
+}
+/*첫 시작*/
+.blackBackground{
+  width: 100%;
+  height: 869px;
+
+  background-color: black;
+  z-index: 3;
+
+  position: fixed;
+}
+
+.razor{
+  background-color: black;
+  margin: 0;
+
+  position: relative;
+  top : 434px;
+
+  border-top: 2px solid white;
+  width : 0;
+}
+/*fixed 관리*/
+.companyIcon{
+  position: fixed;
+  z-index: 4;
+
+  width: 10%;
+  height: 10%;
+
+  left : 40px;
+  /*top : 40px;*/
+  top : -100px;
+}
+.pageNumberBox{
+  position: fixed;
+  color: white;
+  z-index: 1;
+  left : 1600px;
+  /*top : 780px;*/
+  top : 880px;
+}
+.pageNumber{
+  font-family: 'Noto Sans KR', sans-serif;
+
+  font-size: 12px;
+
+  border-top: 1px solid white;
+}
+.pageNumberValue{
+  font-size: 36px;
+  vertical-align: -16px;
+}
+.icon{
+  position : fixed;
+  z-index: 4;
+
+  width: 1.5%;
+  height: 2.5%;
+}
+#facebook{
+  /*left: 42px;*/
+  left: 28px;
+  opacity: 0;
+  margin-top: 390px;
+}
+#instagram{
+  /*left: 48px;*/
+  left: 28px;
+  opacity: 0;
+  margin-top: 460px;
+}
+
+.arrow{
+  position : fixed;
+  z-index: 1;
+
+  margin-left: 780px;
+  margin-top: 750px;
+
+  width: 130px;
+  opacity: 0;
+}
+.menuButton{
+  position : fixed;
+  z-index: 3;
+
+  width: 100px;
+  height: 40px;
+  padding: 20px;
+
+  left : 1600px;
+  /*top : 40px;*/
+  top : -50px;
+}
+.menuButton:hover{
+  cursor: pointer;
+}
+.menuBtnUpLine{
+  border-top: 3px solid white;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.menuBtnBottomLine{
+  margin-left: auto;
+  border-top: 4px solid white;
+  width: 50%;
+}
+.menu{
+  width: 100%;
+  height: 869px;
+
+  background-color: black;
+  z-index: 2;
+
+  left:1760px;
+
+  position: fixed;
+}
+.menuLeft{
+  width: 50%;
+  height: 100%;
+  padding: 200px 0 0 400px;
+
+  float: left;
+}
+.menuUpLine{
+  border-top: 1px solid white;
+  width: 100%;
+
+  margin-bottom: 40px;
+}
+.menuRight{
+  width: 50%;
+  height: 100%;
+  padding: 400px 0 0 200px;
+
+  float: left;
+}
+.menuRightBox{
+  width: 400px;
+  height: 400px;
+}
+.menuRightText{
+  color : white;
+  margin: 0;
+}
+.menuText{
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 64px;
+  color: white;
+  opacity: 0.5;
+
+  position: relative;
+
+  margin: 15px 0 20px 0;
+}
+.menuText:hover{
+  cursor: pointer;
+}
+
+/*페이지 관리*/
+#page1{
+  background-image: url(/TermProject/imgs/building.jpg);
+}
+#page2{
+  background-image: url(/TermProject/imgs/3dprinter.jpg);
+}
+#page3{
+  background-image: url(/TermProject/imgs/counceling.png);
+}
+#page4{
+  background-image: url(/TermProject/imgs/support.jpg);
+}
+
+.page{
+  height: 869px;
+  width: 100%;
+  margin: 0;
+  background-size: 100% 100%;
+  background-position: center center;
+  filter: blur(30px);
+
+  padding-left: 50%;
+  /*중앙 정렬*/
+  padding-top: 270px;
+}
+.resetLineHeight{
+  line-height: 16px;
+}
+.title{
+  position: relative;
+  /*bottom : 230px;*/
+  bottom : 250px;
+  opacity: 0;
+  right: 50px;
+  color: white;
+  z-index: 1;
+}
+
+.headLine{
+  font-family: 'Archivo Black', sans-serif;
+  color: white;
+  font-size: 72px;
+  margin: 0;
+
+  position: relative;
+  top: 40px;
+  opacity: 0;
+}
+.bdText{
+  color: #1393ce;
+}
+
+.moreLine{
+  /*margin-top: 30px;*/
+  width: 70px;
+  position: relative;
+  top: 50px;
+  opacity: 0;
+}
+.more{
+  color: white;
+  font-size: 16px;
+  display: block;
+}
+.moreBorderLine{
+  margin-top: 15px;
+  width: 70px;
+  border-top: 3px solid white;
+}

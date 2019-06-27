@@ -1,0 +1,149 @@
+th{
+	margin:0;
+}
+td{
+	margin: 0;
+}
+.body{
+	margin-left: 150px;
+}
+#at{
+	text-decoration: none;
+	outline: none;
+	color:#b2b2b2;
+	font-family: 'Black Han Sans', sans-serif;
+}
+#at_list{
+	text-decoration: none;
+	outline: none;
+	color: black ;
+	font-size:32px;
+	font-family: 'Black Han Sans', sans-serif;
+}
+.tbt{
+	font-size: 20px;
+	margin-left: 20px;
+	border-collapse: separate;
+    border-spacing: 0px;
+    text-align: left;
+    line-height: 1.5;
+    border-left: none;
+    border-right: none;
+}
+table.tbt th {
+  	width: 200px;
+    font-weight: bold;
+    vertical-align: top;
+    border:none;
+
+
+}
+table.tbt td {
+    vertical-align: top;
+    border:none;
+
+}
+#title{
+	font-size: 60px;
+}
+
+#content{
+	font-size: 20px;
+}
+
+#menu{
+	font-size: 27px;
+	font-weight: bold;
+}
+#intro{
+	font-size: 20px;
+	text-decoration: none;
+	outline: none;
+	color:#b2b2b2;
+}
+#fs{
+	font-size: 18px;
+}
+
+input[name="cnt"]::-ms-clear {
+	display: none;
+}
+
+.at_list{
+	font-size: 32px;
+	font-weight: bold;
+}
+
+#faq1{
+	font-size: 25px;
+	font-weight: normal;
+}
+
+#faq2{
+	font-size: 25px;
+	font-weight: normal;
+}
+
+#faq3{
+	font-size: 25px;
+	font-weight: normal;
+}
+
+#faq4{
+	font-size: 25px;
+	font-weight: normal;
+}
+#faq5{
+	font-size: 25px;
+	font-weight: normal;
+}
+#faq6{
+	font-size: 25px;
+	font-weight: normal;
+}
+.img{
+        position: relative;
+        background-image: url(https://cdn.pixabay.com/photo/2015/03/26/09/41/tie-690084_1280.jpg);
+        height: 30vh;
+        background-size: cover;
+ }
+
+.img-cover{
+       position: absolute;
+       height: 100%;
+       width: 100%;
+       background-color: rgba(0, 0, 0, 0.7);
+       z-index:1;
+}
+
+.img .content{
+         position: absolute;
+         top:50%;
+         left:50%;
+         transform: translate(-50%, -50%);
+         font-size:3rem;
+         color: #A4A4A4;
+         z-index: 2;
+         text-align: center;
+ }
+
+.sb{
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	padding:0 3em 0 0.7em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	border-radius: .5em;
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	font-size: 25px;
+}
+
+.sb:hover{
+	text-decoration: none;
+}
+.sb:active{
+	position: relative;
+	top:1px;
+}

@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+li{
+  list-style: none;
+}
+ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+
+    text-align: center;
+}
+a{
+  text-decoration: none;
+}
+p{
+  margin: 0px;
+}
+.liBox::after{
+  display: block;
+  content: '';
+  clear: both;
+}
+.form-box{
+  text-align: center;
+}
+.logo{
+  width: 300px;
+  margin-top: 100px;
+}
+.category{
+  float:left;
+  font-family: 'Cabin Condensed', sans-serif;
+  color: #585858;
+
+  padding: 0 20px;
+  border-left: 1px solid #585858;
+  margin-top: 40px;
+
+  font-size: 16px;
+}
+.category:hover{
+  cursor: pointer;
+}
+.liBox{
+  width: 370px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.category:first-child{
+  /*margin-left: 50%;*/
+  border: none;
+}
+
+.horizen{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 20%;
+  border-top: 1px solid #585858;
+
+  margin-top: 20px;
+}
+
+.input{
+  /*display: block;*/
+  border: none;
+}
+.form{
+  text-align: center;
+
+}
+table{
+  display: inline;
+}
+
+.Box{
+  /*margin-top: 80px;
+  margin-left: 150px;*/
+}
+.testDrawing{
+  background-color: silver;
+  border: 1px solid white;
+  margin: 15px auto;
+
+  width: 380px;
+  height: 200px;
+}
+
+.testDrawingX{
+  background-color: silver;
+  border: 1px solid white;
+
+  width: 300px;
+  height: 380px;
+  margin: 15px auto;
+}
+.testDrawingY{
+  background-color: silver;
+  border: 1px solid white;
+
+  width: 400px;
+  height: 300px;
+  margin: 15px auto;
+}
